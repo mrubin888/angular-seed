@@ -9,7 +9,7 @@ A modular front-end angular seed project that utilizes gulp with browserify.
 ### Development
 Run ```gulp``` default task from the project root.
 ### Production
-Run ```gulp build``` task from project root and server your 'dist' folder with a server
+Run ```gulp build``` task from project root and serve your 'dist' folder with a server
 
 ## Api Expectations
 - GET /api/todo
