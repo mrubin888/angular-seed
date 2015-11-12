@@ -1,7 +1,7 @@
+var config = require('../config/config');
 var request = require('superagent');
 
-var server_address = 'http://104.131.145.83:80/';
-var root = server_address + 'api/';
+var root = config.server_address + '/' + config.api_root + '/';
 	
 module.exports = {
 	// GET /api/[api_name]
