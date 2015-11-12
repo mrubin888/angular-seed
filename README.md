@@ -6,7 +6,10 @@ A modular front-end angular seed project that utilizes gulp with browserify.
 2. Fill in your api settings in 'config/sample_config.js' and save it as 'config/config.js'
 
 ## Run
+### Development
 Run ```gulp``` default task from the project root.
+### Production
+Run ```gulp build``` task from project root and server your 'dist' folder with a server
 
 ## Api Expectations
 - GET /api/todo
